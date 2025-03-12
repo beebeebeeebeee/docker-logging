@@ -1,0 +1,10 @@
+zincsearch
+
+.vscode
+.idea
+
+.DS_Store
+*.log
+*.log.*
+
+.env
