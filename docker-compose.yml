@@ -8,6 +8,7 @@ services:
       - "24224:24224"
       - "24224:24224/udp"
     environment:
+      - ZINC_HOST=${ZINC_HOST}
       - ZINC_ADMIN_USER=${ZINC_ADMIN_USER}
       - ZINC_ADMIN_PASSWORD=${ZINC_ADMIN_PASSWORD}
 
